@@ -1,0 +1,1813 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec13a96c04209e74fa23e160e6ff3264, type: 3}
+  m_Name: UpgaradeData
+  m_EditorClassIdentifier: 
+  UpgradeDatas:
+  - Name: Player
+    UpgaradesGrades:
+    - ResourcesToUpgrade:
+        ResourcesInfo: []
+      ResourcesForColect:
+        ResourcesInfo: []
+      ResourcesToCreate:
+        ResourcesInfo: []
+      MaxStorage: 10
+      MaxInputStorage: 10
+      CreationSpeed: 5.5
+      CollectTime: 0.1
+      NeedCount: 0
+      UpgradeResourses: []
+    - ResourcesToUpgrade:
+        ResourcesInfo: []
+      ResourcesForColect:
+        ResourcesInfo: []
+      ResourcesToCreate:
+        ResourcesInfo: []
+      MaxStorage: 15
+      MaxInputStorage: 15
+      CreationSpeed: 6.5
+      CollectTime: 0.1
+      NeedCount: 0
+      UpgradeResourses: []
+    - ResourcesToUpgrade:
+        ResourcesInfo: []
+      ResourcesForColect:
+        ResourcesInfo: []
+      ResourcesToCreate:
+        ResourcesInfo: []
+      MaxStorage: 20
+      MaxInputStorage: 20
+      CreationSpeed: 7.5
+      CollectTime: 0.1
+      NeedCount: 0
+      UpgradeResourses: []
+    - ResourcesToUpgrade:
+        ResourcesInfo: []
+      ResourcesForColect:
+        ResourcesInfo: []
+      ResourcesToCreate:
+        ResourcesInfo: []
+      MaxStorage: 30
+      MaxInputStorage: 30
+      CreationSpeed: 8.5
+      CollectTime: 0.1
+      NeedCount: 0
+      UpgradeResourses: []
+  - Name: Tanker
+    UpgaradesGrades:
+    - ResourcesToUpgrade:
+        ResourcesInfo: []
+      ResourcesForColect:
+        ResourcesInfo: []
+      ResourcesToCreate:
+        ResourcesInfo: []
+      MaxStorage: 10
+      MaxInputStorage: 10
+      CreationSpeed: 1
+      CollectTime: 1
+      NeedCount: 0
+      UpgradeResourses:
+      - ResourceInfo:
+          ID: Oil
+        Count: 15
+    - ResourcesToUpgrade:
+        ResourcesInfo: []
+      ResourcesForColect:
+        ResourcesInfo: []
+      ResourcesToCreate:
+        ResourcesInfo: []
+      MaxStorage: 10
+      MaxInputStorage: 10
+      CreationSpeed: 1
+      CollectTime: 1
+      NeedCount: 0
+      UpgradeResourses:
+      - ResourceInfo:
+          ID: Oil
+        Count: 30
+      - ResourceInfo:
+          ID: Water
+        Count: 10
+    - ResourcesToUpgrade:
+        ResourcesInfo: []
+      ResourcesForColect:
+        ResourcesInfo: []
+      ResourcesToCreate:
+        ResourcesInfo: []
+      MaxStorage: 10
+      MaxInputStorage: 10
+      CreationSpeed: 1
+      CollectTime: 1
+      NeedCount: 0
+      UpgradeResourses:
+      - ResourceInfo:
+          ID: Oil
+        Count: 50
+      - ResourceInfo:
+          ID: Water
+        Count: 20
+    - ResourcesToUpgrade:
+        ResourcesInfo: []
+      ResourcesForColect:
+        ResourcesInfo: []
+      ResourcesToCreate:
+        ResourcesInfo: []
+      MaxStorage: 10
+      MaxInputStorage: 10
+      CreationSpeed: 1
+      CollectTime: 1
+      NeedCount: 0
+      UpgradeResourses:
+      - ResourceInfo:
+          ID: Oil
+        Count: 80
+      - ResourceInfo:
+          ID: Water
+        Count: 30
+      - ResourceInfo:
+          ID: Plastic
+        Count: 10
+    - ResourcesToUpgrade:
+        ResourcesInfo: []
+      ResourcesForColect:
+        ResourcesInfo: []
+      ResourcesToCreate:
+        ResourcesInfo: []
+      MaxStorage: 10
+      MaxInputStorage: 10
+      CreationSpeed: 1
+      CollectTime: 1
+      NeedCount: 0
+      UpgradeResourses:
+      - ResourceInfo:
+          ID: Oil
+        Count: 100
+      - ResourceInfo:
+          ID: Water
+        Count: 50
+      - ResourceInfo:
+          ID: Plastic
+        Count: 30
+    - ResourcesToUpgrade:
+        ResourcesInfo: []
+      ResourcesForColect:
+        ResourcesInfo: []
+      ResourcesToCreate:
+        ResourcesInfo: []
+      MaxStorage: 10
+      MaxInputStorage: 10
+      CreationSpeed: 1
+      CollectTime: 1
+      NeedCount: 0
+      UpgradeResourses:
+      - ResourceInfo:
+          ID: Oil
+        Count: 150
+      - ResourceInfo:
+          ID: Water
+        Count: 80
+      - ResourceInfo:
+          ID: Plastic
+        Count: 50
+      - ResourceInfo:
+          ID: Metall
+        Count: 30
+    - ResourcesToUpgrade:
+        ResourcesInfo: []
+      ResourcesForColect:
+        ResourcesInfo: []
+      ResourcesToCreate:
+        ResourcesInfo: []
+      MaxStorage: 10
+      MaxInputStorage: 10
+      CreationSpeed: 1
+      CollectTime: 1
+      NeedCount: 0
+      UpgradeResourses:
+      - ResourceInfo:
+          ID: Oil
+        Count: 200
+      - ResourceInfo:
+          ID: Water
+        Count: 100
+      - ResourceInfo:
+          ID: Plastic
+        Count: 80
+      - ResourceInfo:
+          ID: Metall
+        Count: 50
+    - ResourcesToUpgrade:
+        ResourcesInfo: []
+      ResourcesForColect:
+        ResourcesInfo: []
+      ResourcesToCreate:
+        ResourcesInfo: []
+      MaxStorage: 10
+      MaxInputStorage: 10
+      CreationSpeed: 1
+      CollectTime: 1
+      NeedCount: 0
+      UpgradeResourses:
+      - ResourceInfo:
+          ID: Oil
+        Count: 200
+      - ResourceInfo:
+          ID: Water
+        Count: 100
+      - ResourceInfo:
+          ID: Plastic
+        Count: 80
+      - ResourceInfo:
+          ID: Metall
+        Count: 50
+  - Name: PlasticCreator
+    UpgaradesGrades:
+    - ResourcesToUpgrade:
+        ResourcesInfo: []
+      ResourcesForColect:
+        ResourcesInfo:
+        - ID: Oil
+      ResourcesToCreate:
+        ResourcesInfo: []
+      MaxStorage: 10
+      MaxInputStorage: 5
+      CreationSpeed: 1
+      CollectTime: 1
+      NeedCount: 1
+      UpgradeResourses:
+      - ResourceInfo:
+          ID: Oil
+        Count: 20
+      - ResourceInfo:
+          ID: Water
+        Count: 10
+    - ResourcesToUpgrade:
+        ResourcesInfo: []
+      ResourcesForColect:
+        ResourcesInfo:
+        - ID: Oil
+      ResourcesToCreate:
+        ResourcesInfo:
+        - ID: Plastic
+      MaxStorage: 20
+      MaxInputStorage: 5
+      CreationSpeed: 7
+      CollectTime: 1
+      NeedCount: 1
+      UpgradeResourses:
+      - ResourceInfo:
+          ID: Oil
+        Count: 25
+      - ResourceInfo:
+          ID: Water
+        Count: 15
+    - ResourcesToUpgrade:
+        ResourcesInfo: []
+      ResourcesForColect:
+        ResourcesInfo:
+        - ID: Oil
+      ResourcesToCreate:
+        ResourcesInfo:
+        - ID: Plastic
+      MaxStorage: 30
+      MaxInputStorage: 10
+      CreationSpeed: 5.5
+      CollectTime: 1
+      NeedCount: 1
+      UpgradeResourses:
+      - ResourceInfo:
+          ID: Oil
+        Count: 30
+      - ResourceInfo:
+          ID: Water
+        Count: 15
+      - ResourceInfo:
+          ID: Metall
+        Count: 20
+    - ResourcesToUpgrade:
+        ResourcesInfo: []
+      ResourcesForColect:
+        ResourcesInfo:
+        - ID: Oil
+      ResourcesToCreate:
+        ResourcesInfo:
+        - ID: Plastic
+      MaxStorage: 50
+      MaxInputStorage: 15
+      CreationSpeed: 4
+      CollectTime: 1
+      NeedCount: 1
+      UpgradeResourses:
+      - ResourceInfo:
+          ID: Oil
+        Count: 6
+  - Name: FoodCreator
+    UpgaradesGrades:
+    - ResourcesToUpgrade:
+        ResourcesInfo: []
+      ResourcesForColect:
+        ResourcesInfo:
+        - ID: Water
+      ResourcesToCreate:
+        ResourcesInfo:
+        - ID: Food
+      MaxStorage: 10
+      MaxInputStorage: 5
+      CreationSpeed: 1
+      CollectTime: 1
+      NeedCount: 1
+      UpgradeResourses:
+      - ResourceInfo:
+          ID: Oil
+        Count: 7
+    - ResourcesToUpgrade:
+        ResourcesInfo: []
+      ResourcesForColect:
+        ResourcesInfo:
+        - ID: Water
+      ResourcesToCreate:
+        ResourcesInfo:
+        - ID: Food
+      MaxStorage: 4
+      MaxInputStorage: 6
+      CreationSpeed: 9
+      CollectTime: 1
+      NeedCount: 1
+      UpgradeResourses:
+      - ResourceInfo:
+          ID: Oil
+        Count: 15
+    - ResourcesToUpgrade:
+        ResourcesInfo: []
+      ResourcesForColect:
+        ResourcesInfo:
+        - ID: Water
+      ResourcesToCreate:
+        ResourcesInfo:
+        - ID: Food
+      MaxStorage: 6
+      MaxInputStorage: 6
+      CreationSpeed: 8
+      CollectTime: 1
+      NeedCount: 1
+      UpgradeResourses:
+      - ResourceInfo:
+          ID: Oil
+        Count: 25
+      - ResourceInfo:
+          ID: Plastic
+        Count: 10
+      - ResourceInfo:
+          ID: Metall
+        Count: 12
+    - ResourcesToUpgrade:
+        ResourcesInfo: []
+      ResourcesForColect:
+        ResourcesInfo:
+        - ID: Water
+      ResourcesToCreate:
+        ResourcesInfo:
+        - ID: Food
+      MaxStorage: 8
+      MaxInputStorage: 6
+      CreationSpeed: 7
+      CollectTime: 1
+      NeedCount: 1
+      UpgradeResourses:
+      - ResourceInfo:
+          ID: Oil
+        Count: 10
+    - ResourcesToUpgrade:
+        ResourcesInfo: []
+      ResourcesForColect:
+        ResourcesInfo:
+        - ID: Water
+      ResourcesToCreate:
+        ResourcesInfo:
+        - ID: Food
+      MaxStorage: 8
+      MaxInputStorage: 6
+      CreationSpeed: 7
+      CollectTime: 1
+      NeedCount: 1
+      UpgradeResourses:
+      - ResourceInfo:
+          ID: Oil
+        Count: 10
+  - Name: OilPump
+    UpgaradesGrades:
+    - ResourcesToUpgrade:
+        ResourcesInfo: []
+      ResourcesForColect:
+        ResourcesInfo: []
+      ResourcesToCreate:
+        ResourcesInfo:
+        - ID: Oil
+      MaxStorage: 10
+      MaxInputStorage: 10
+      CreationSpeed: 0
+      CollectTime: 1
+      NeedCount: 0
+      UpgradeResourses:
+      - ResourceInfo:
+          ID: Oil
+        Count: 7
+    - ResourcesToUpgrade:
+        ResourcesInfo: []
+      ResourcesForColect:
+        ResourcesInfo: []
+      ResourcesToCreate:
+        ResourcesInfo:
+        - ID: Oil
+      MaxStorage: 20
+      MaxInputStorage: 20
+      CreationSpeed: 7
+      CollectTime: 1
+      NeedCount: 0
+      UpgradeResourses:
+      - ResourceInfo:
+          ID: Oil
+        Count: 15
+      - ResourceInfo:
+          ID: Water
+        Count: 12
+    - ResourcesToUpgrade:
+        ResourcesInfo: []
+      ResourcesForColect:
+        ResourcesInfo: []
+      ResourcesToCreate:
+        ResourcesInfo:
+        - ID: Oil
+      MaxStorage: 40
+      MaxInputStorage: 40
+      CreationSpeed: 6.7
+      CollectTime: 1
+      NeedCount: 0
+      UpgradeResourses:
+      - ResourceInfo:
+          ID: Oil
+        Count: 25
+      - ResourceInfo:
+          ID: Water
+        Count: 15
+    - ResourcesToUpgrade:
+        ResourcesInfo: []
+      ResourcesForColect:
+        ResourcesInfo: []
+      ResourcesToCreate:
+        ResourcesInfo:
+        - ID: Oil
+      MaxStorage: 60
+      MaxInputStorage: 60
+      CreationSpeed: 6.4
+      CollectTime: 1
+      NeedCount: 0
+      UpgradeResourses:
+      - ResourceInfo:
+          ID: Oil
+        Count: 35
+      - ResourceInfo:
+          ID: Water
+        Count: 20
+      - ResourceInfo:
+          ID: Metall
+        Count: 15
+    - ResourcesToUpgrade:
+        ResourcesInfo: []
+      ResourcesForColect:
+        ResourcesInfo: []
+      ResourcesToCreate:
+        ResourcesInfo:
+        - ID: Oil
+      MaxStorage: 60
+      MaxInputStorage: 60
+      CreationSpeed: 6.4
+      CollectTime: 1
+      NeedCount: 0
+      UpgradeResourses:
+      - ResourceInfo:
+          ID: Oil
+        Count: 30
+      - ResourceInfo:
+          ID: Water
+        Count: 20
+      - ResourceInfo:
+          ID: Metall
+        Count: 15
+  - Name: WaterPump
+    UpgaradesGrades:
+    - ResourcesToUpgrade:
+        ResourcesInfo: []
+      ResourcesForColect:
+        ResourcesInfo: []
+      ResourcesToCreate:
+        ResourcesInfo:
+        - ID: Water
+      MaxStorage: 10
+      MaxInputStorage: 10
+      CreationSpeed: 1
+      CollectTime: 1
+      NeedCount: 1
+      UpgradeResourses:
+      - ResourceInfo:
+          ID: Oil
+        Count: 10
+    - ResourcesToUpgrade:
+        ResourcesInfo: []
+      ResourcesForColect:
+        ResourcesInfo: []
+      ResourcesToCreate:
+        ResourcesInfo:
+        - ID: Water
+      MaxStorage: 20
+      MaxInputStorage: 10
+      CreationSpeed: 3.5
+      CollectTime: 1
+      NeedCount: 1
+      UpgradeResourses:
+      - ResourceInfo:
+          ID: Oil
+        Count: 25
+      - ResourceInfo:
+          ID: Plastic
+        Count: 15
+    - ResourcesToUpgrade:
+        ResourcesInfo: []
+      ResourcesForColect:
+        ResourcesInfo: []
+      ResourcesToCreate:
+        ResourcesInfo:
+        - ID: Water
+      MaxStorage: 30
+      MaxInputStorage: 10
+      CreationSpeed: 3.2
+      CollectTime: 1
+      NeedCount: 1
+      UpgradeResourses:
+      - ResourceInfo:
+          ID: Oil
+        Count: 20
+      - ResourceInfo:
+          ID: Plastic
+        Count: 25
+      - ResourceInfo:
+          ID: Metall
+        Count: 15
+    - ResourcesToUpgrade:
+        ResourcesInfo: []
+      ResourcesForColect:
+        ResourcesInfo: []
+      ResourcesToCreate:
+        ResourcesInfo:
+        - ID: Water
+      MaxStorage: 50
+      MaxInputStorage: 10
+      CreationSpeed: 2.9
+      CollectTime: 1
+      NeedCount: 1
+      UpgradeResourses:
+      - ResourceInfo:
+          ID: Oil
+        Count: 30
+      - ResourceInfo:
+          ID: Water
+        Count: 20
+      - ResourceInfo:
+          ID: Metall
+        Count: 15
+  - Name: Bur
+    UpgaradesGrades:
+    - ResourcesToUpgrade:
+        ResourcesInfo: []
+      ResourcesForColect:
+        ResourcesInfo: []
+      ResourcesToCreate:
+        ResourcesInfo:
+        - ID: Metall
+      MaxStorage: 10
+      MaxInputStorage: 10
+      CreationSpeed: 1
+      CollectTime: 1
+      NeedCount: 0
+      UpgradeResourses:
+      - ResourceInfo:
+          ID: Oil
+        Count: 20
+      - ResourceInfo:
+          ID: Plastic
+        Count: 12
+      - ResourceInfo:
+          ID: Water
+        Count: 12
+    - ResourcesToUpgrade:
+        ResourcesInfo: []
+      ResourcesForColect:
+        ResourcesInfo: []
+      ResourcesToCreate:
+        ResourcesInfo:
+        - ID: Metall
+      MaxStorage: 20
+      MaxInputStorage: 10
+      CreationSpeed: 7.5
+      CollectTime: 1
+      NeedCount: 0
+      UpgradeResourses:
+      - ResourceInfo:
+          ID: Oil
+        Count: 30
+      - ResourceInfo:
+          ID: Plastic
+        Count: 15
+      - ResourceInfo:
+          ID: Water
+        Count: 15
+    - ResourcesToUpgrade:
+        ResourcesInfo: []
+      ResourcesForColect:
+        ResourcesInfo: []
+      ResourcesToCreate:
+        ResourcesInfo:
+        - ID: Metall
+      MaxStorage: 30
+      MaxInputStorage: 10
+      CreationSpeed: 6
+      CollectTime: 1
+      NeedCount: 0
+      UpgradeResourses:
+      - ResourceInfo:
+          ID: Oil
+        Count: 25
+      - ResourceInfo:
+          ID: Plastic
+        Count: 20
+      - ResourceInfo:
+          ID: Water
+        Count: 20
+    - ResourcesToUpgrade:
+        ResourcesInfo: []
+      ResourcesForColect:
+        ResourcesInfo: []
+      ResourcesToCreate:
+        ResourcesInfo:
+        - ID: Metall
+      MaxStorage: 50
+      MaxInputStorage: 10
+      CreationSpeed: 4.5
+      CollectTime: 1
+      NeedCount: 0
+      UpgradeResourses:
+      - ResourceInfo:
+          ID: Oil
+        Count: 5
+  - Name: Shop
+    UpgaradesGrades:
+    - ResourcesToUpgrade:
+        ResourcesInfo: []
+      ResourcesForColect:
+        ResourcesInfo: []
+      ResourcesToCreate:
+        ResourcesInfo:
+        - ID: Metall
+      MaxStorage: 0
+      MaxInputStorage: 0
+      CreationSpeed: 0
+      CollectTime: 0
+      NeedCount: 0
+      UpgradeResourses:
+      - ResourceInfo:
+          ID: Oil
+        Count: 5
+    - ResourcesToUpgrade:
+        ResourcesInfo: []
+      ResourcesForColect:
+        ResourcesInfo:
+        - ID: Food
+      ResourcesToCreate:
+        ResourcesInfo: []
+      MaxStorage: 0
+      MaxInputStorage: 0
+      CreationSpeed: 0
+      CollectTime: 0
+      NeedCount: 0
+      UpgradeResourses:
+      - ResourceInfo:
+          ID: Oil
+        Count: 7
+    - ResourcesToUpgrade:
+        ResourcesInfo: []
+      ResourcesForColect:
+        ResourcesInfo:
+        - ID: Food
+      ResourcesToCreate:
+        ResourcesInfo: []
+      MaxStorage: 0
+      MaxInputStorage: 0
+      CreationSpeed: 0
+      CollectTime: 0
+      NeedCount: 0
+      UpgradeResourses:
+      - ResourceInfo:
+          ID: Oil
+        Count: 10
+      - ResourceInfo:
+          ID: Water
+        Count: 10
+    - ResourcesToUpgrade:
+        ResourcesInfo: []
+      ResourcesForColect:
+        ResourcesInfo:
+        - ID: Food
+      ResourcesToCreate:
+        ResourcesInfo: []
+      MaxStorage: 0
+      MaxInputStorage: 0
+      CreationSpeed: 0
+      CollectTime: 0
+      NeedCount: 0
+      UpgradeResourses:
+      - ResourceInfo:
+          ID: Oil
+        Count: 7
+      - ResourceInfo:
+          ID: Water
+        Count: 7
+    - ResourcesToUpgrade:
+        ResourcesInfo: []
+      ResourcesForColect:
+        ResourcesInfo:
+        - ID: Food
+      ResourcesToCreate:
+        ResourcesInfo: []
+      MaxStorage: 0
+      MaxInputStorage: 0
+      CreationSpeed: 0
+      CollectTime: 0
+      NeedCount: 0
+      UpgradeResourses:
+      - ResourceInfo:
+          ID: Oil
+        Count: 10
+      - ResourceInfo:
+          ID: Water
+        Count: 10
+    - ResourcesToUpgrade:
+        ResourcesInfo: []
+      ResourcesForColect:
+        ResourcesInfo:
+        - ID: Food
+      ResourcesToCreate:
+        ResourcesInfo: []
+      MaxStorage: 0
+      MaxInputStorage: 0
+      CreationSpeed: 0
+      CollectTime: 0
+      NeedCount: 0
+      UpgradeResourses:
+      - ResourceInfo:
+          ID: Oil
+        Count: 10
+      - ResourceInfo:
+          ID: Water
+        Count: 10
+    - ResourcesToUpgrade:
+        ResourcesInfo: []
+      ResourcesForColect:
+        ResourcesInfo:
+        - ID: Food
+      ResourcesToCreate:
+        ResourcesInfo: []
+      MaxStorage: 0
+      MaxInputStorage: 0
+      CreationSpeed: 0
+      CollectTime: 0
+      NeedCount: 0
+      UpgradeResourses:
+      - ResourceInfo:
+          ID: Oil
+        Count: 12
+      - ResourceInfo:
+          ID: Water
+        Count: 10
+    - ResourcesToUpgrade:
+        ResourcesInfo: []
+      ResourcesForColect:
+        ResourcesInfo:
+        - ID: Food
+      ResourcesToCreate:
+        ResourcesInfo: []
+      MaxStorage: 0
+      MaxInputStorage: 0
+      CreationSpeed: 0
+      CollectTime: 0
+      NeedCount: 0
+      UpgradeResourses:
+      - ResourceInfo:
+          ID: Oil
+        Count: 15
+      - ResourceInfo:
+          ID: Water
+        Count: 10
+    - ResourcesToUpgrade:
+        ResourcesInfo: []
+      ResourcesForColect:
+        ResourcesInfo:
+        - ID: Food
+      ResourcesToCreate:
+        ResourcesInfo: []
+      MaxStorage: 0
+      MaxInputStorage: 0
+      CreationSpeed: 0
+      CollectTime: 0
+      NeedCount: 0
+      UpgradeResourses:
+      - ResourceInfo:
+          ID: Oil
+        Count: 10
+      - ResourceInfo:
+          ID: Plastic
+        Count: 5
+    - ResourcesToUpgrade:
+        ResourcesInfo: []
+      ResourcesForColect:
+        ResourcesInfo:
+        - ID: Food
+      ResourcesToCreate:
+        ResourcesInfo: []
+      MaxStorage: 0
+      MaxInputStorage: 0
+      CreationSpeed: 0
+      CollectTime: 0
+      NeedCount: 0
+      UpgradeResourses:
+      - ResourceInfo:
+          ID: Oil
+        Count: 12
+      - ResourceInfo:
+          ID: Water
+        Count: 12
+      - ResourceInfo:
+          ID: Plastic
+        Count: 5
+    - ResourcesToUpgrade:
+        ResourcesInfo: []
+      ResourcesForColect:
+        ResourcesInfo:
+        - ID: Food
+      ResourcesToCreate:
+        ResourcesInfo: []
+      MaxStorage: 0
+      MaxInputStorage: 0
+      CreationSpeed: 0
+      CollectTime: 0
+      NeedCount: 0
+      UpgradeResourses:
+      - ResourceInfo:
+          ID: Oil
+        Count: 15
+      - ResourceInfo:
+          ID: Water
+        Count: 10
+      - ResourceInfo:
+          ID: Plastic
+        Count: 15
+    - ResourcesToUpgrade:
+        ResourcesInfo: []
+      ResourcesForColect:
+        ResourcesInfo:
+        - ID: Food
+      ResourcesToCreate:
+        ResourcesInfo: []
+      MaxStorage: 0
+      MaxInputStorage: 0
+      CreationSpeed: 0
+      CollectTime: 0
+      NeedCount: 0
+      UpgradeResourses:
+      - ResourceInfo:
+          ID: Oil
+        Count: 12
+      - ResourceInfo:
+          ID: Water
+        Count: 12
+    - ResourcesToUpgrade:
+        ResourcesInfo: []
+      ResourcesForColect:
+        ResourcesInfo:
+        - ID: Food
+      ResourcesToCreate:
+        ResourcesInfo: []
+      MaxStorage: 0
+      MaxInputStorage: 0
+      CreationSpeed: 0
+      CollectTime: 0
+      NeedCount: 0
+      UpgradeResourses:
+      - ResourceInfo:
+          ID: Oil
+        Count: 15
+      - ResourceInfo:
+          ID: Plastic
+        Count: 20
+    - ResourcesToUpgrade:
+        ResourcesInfo: []
+      ResourcesForColect:
+        ResourcesInfo:
+        - ID: Food
+      ResourcesToCreate:
+        ResourcesInfo: []
+      MaxStorage: 0
+      MaxInputStorage: 0
+      CreationSpeed: 0
+      CollectTime: 0
+      NeedCount: 0
+      UpgradeResourses:
+      - ResourceInfo:
+          ID: Oil
+        Count: 15
+      - ResourceInfo:
+          ID: Water
+        Count: 15
+      - ResourceInfo:
+          ID: Plastic
+        Count: 12
+    - ResourcesToUpgrade:
+        ResourcesInfo: []
+      ResourcesForColect:
+        ResourcesInfo:
+        - ID: Food
+      ResourcesToCreate:
+        ResourcesInfo: []
+      MaxStorage: 0
+      MaxInputStorage: 0
+      CreationSpeed: 0
+      CollectTime: 0
+      NeedCount: 0
+      UpgradeResourses:
+      - ResourceInfo:
+          ID: Oil
+        Count: 15
+      - ResourceInfo:
+          ID: Plastic
+        Count: 12
+    - ResourcesToUpgrade:
+        ResourcesInfo: []
+      ResourcesForColect:
+        ResourcesInfo:
+        - ID: Food
+      ResourcesToCreate:
+        ResourcesInfo: []
+      MaxStorage: 0
+      MaxInputStorage: 0
+      CreationSpeed: 0
+      CollectTime: 0
+      NeedCount: 0
+      UpgradeResourses:
+      - ResourceInfo:
+          ID: Oil
+        Count: 17
+      - ResourceInfo:
+          ID: Water
+        Count: 17
+    - ResourcesToUpgrade:
+        ResourcesInfo: []
+      ResourcesForColect:
+        ResourcesInfo:
+        - ID: Food
+      ResourcesToCreate:
+        ResourcesInfo: []
+      MaxStorage: 0
+      MaxInputStorage: 0
+      CreationSpeed: 0
+      CollectTime: 0
+      NeedCount: 0
+      UpgradeResourses:
+      - ResourceInfo:
+          ID: Oil
+        Count: 20
+      - ResourceInfo:
+          ID: Water
+        Count: 10
+      - ResourceInfo:
+          ID: Plastic
+        Count: 12
+    - ResourcesToUpgrade:
+        ResourcesInfo:
+        - ID: Oil
+        - ID: Oil
+        - ID: Oil
+        - ID: Oil
+        - ID: Oil
+        - ID: Oil
+        - ID: Oil
+        - ID: Oil
+        - ID: Oil
+        - ID: Oil
+        - ID: Oil
+        - ID: Oil
+        - ID: Oil
+        - ID: Oil
+        - ID: Oil
+      ResourcesForColect:
+        ResourcesInfo:
+        - ID: Food
+      ResourcesToCreate:
+        ResourcesInfo: []
+      MaxStorage: 0
+      MaxInputStorage: 0
+      CreationSpeed: 0
+      CollectTime: 0
+      NeedCount: 0
+      UpgradeResourses:
+      - ResourceInfo:
+          ID: Oil
+        Count: 20
+      - ResourceInfo:
+          ID: Plastic
+        Count: 25
+      - ResourceInfo:
+          ID: Metall
+        Count: 10
+    - ResourcesToUpgrade:
+        ResourcesInfo: []
+      ResourcesForColect:
+        ResourcesInfo:
+        - ID: Food
+      ResourcesToCreate:
+        ResourcesInfo: []
+      MaxStorage: 0
+      MaxInputStorage: 0
+      CreationSpeed: 0
+      CollectTime: 0
+      NeedCount: 0
+      UpgradeResourses:
+      - ResourceInfo:
+          ID: Oil
+        Count: 30
+      - ResourceInfo:
+          ID: Water
+        Count: 15
+      - ResourceInfo:
+          ID: Metall
+        Count: 20
+    - ResourcesToUpgrade:
+        ResourcesInfo: []
+      ResourcesForColect:
+        ResourcesInfo:
+        - ID: Food
+      ResourcesToCreate:
+        ResourcesInfo: []
+      MaxStorage: 0
+      MaxInputStorage: 0
+      CreationSpeed: 0
+      CollectTime: 0
+      NeedCount: 0
+      UpgradeResourses:
+      - ResourceInfo:
+          ID: Oil
+        Count: 20
+      - ResourceInfo:
+          ID: Plastic
+        Count: 15
+      - ResourceInfo:
+          ID: Metall
+        Count: 10
+    - ResourcesToUpgrade:
+        ResourcesInfo: []
+      ResourcesForColect:
+        ResourcesInfo:
+        - ID: Food
+      ResourcesToCreate:
+        ResourcesInfo: []
+      MaxStorage: 0
+      MaxInputStorage: 0
+      CreationSpeed: 0
+      CollectTime: 0
+      NeedCount: 0
+      UpgradeResourses:
+      - ResourceInfo:
+          ID: Oil
+        Count: 20
+      - ResourceInfo:
+          ID: Water
+        Count: 12
+      - ResourceInfo:
+          ID: Plastic
+        Count: 15
+    - ResourcesToUpgrade:
+        ResourcesInfo: []
+      ResourcesForColect:
+        ResourcesInfo:
+        - ID: Food
+      ResourcesToCreate:
+        ResourcesInfo: []
+      MaxStorage: 0
+      MaxInputStorage: 0
+      CreationSpeed: 0
+      CollectTime: 0
+      NeedCount: 0
+      UpgradeResourses:
+      - ResourceInfo:
+          ID: Oil
+        Count: 25
+      - ResourceInfo:
+          ID: Water
+        Count: 10
+      - ResourceInfo:
+          ID: Metall
+        Count: 25
+    - ResourcesToUpgrade:
+        ResourcesInfo: []
+      ResourcesForColect:
+        ResourcesInfo:
+        - ID: Food
+      ResourcesToCreate:
+        ResourcesInfo: []
+      MaxStorage: 0
+      MaxInputStorage: 0
+      CreationSpeed: 0
+      CollectTime: 0
+      NeedCount: 0
+      UpgradeResourses:
+      - ResourceInfo:
+          ID: Oil
+        Count: 20
+      - ResourceInfo:
+          ID: Plastic
+        Count: 20
+      - ResourceInfo:
+          ID: Water
+        Count: 20
+    - ResourcesToUpgrade:
+        ResourcesInfo: []
+      ResourcesForColect:
+        ResourcesInfo:
+        - ID: Food
+      ResourcesToCreate:
+        ResourcesInfo: []
+      MaxStorage: 0
+      MaxInputStorage: 0
+      CreationSpeed: 0
+      CollectTime: 0
+      NeedCount: 0
+      UpgradeResourses:
+      - ResourceInfo:
+          ID: Oil
+        Count: 30
+      - ResourceInfo:
+          ID: Water
+        Count: 20
+      - ResourceInfo:
+          ID: Metall
+        Count: 25
+    - ResourcesToUpgrade:
+        ResourcesInfo: []
+      ResourcesForColect:
+        ResourcesInfo:
+        - ID: Food
+      ResourcesToCreate:
+        ResourcesInfo: []
+      MaxStorage: 0
+      MaxInputStorage: 0
+      CreationSpeed: 0
+      CollectTime: 0
+      NeedCount: 0
+      UpgradeResourses:
+      - ResourceInfo:
+          ID: Oil
+        Count: 25
+      - ResourceInfo:
+          ID: Water
+        Count: 20
+      - ResourceInfo:
+          ID: Plastic
+        Count: 20
+  - Name: MiniOilPump0
+    UpgaradesGrades:
+    - ResourcesToUpgrade:
+        ResourcesInfo: []
+      ResourcesForColect:
+        ResourcesInfo:
+        - ID: Food
+      ResourcesToCreate:
+        ResourcesInfo:
+        - ID: Metall
+      MaxStorage: 5
+      MaxInputStorage: 2
+      CreationSpeed: 60
+      CollectTime: 0.1
+      NeedCount: 2
+      UpgradeResourses:
+      - ResourceInfo:
+          ID: Oil
+        Count: 3
+    - ResourcesToUpgrade:
+        ResourcesInfo: []
+      ResourcesForColect:
+        ResourcesInfo:
+        - ID: Food
+      ResourcesToCreate:
+        ResourcesInfo:
+        - ID: Metall
+      MaxStorage: 5
+      MaxInputStorage: 2
+      CreationSpeed: 60
+      CollectTime: 0.15
+      NeedCount: 2
+      UpgradeResourses:
+      - ResourceInfo:
+          ID: Oil
+        Count: 10
+  - Name: MiniOilPump1
+    UpgaradesGrades:
+    - ResourcesToUpgrade:
+        ResourcesInfo: []
+      ResourcesForColect:
+        ResourcesInfo:
+        - ID: Food
+      ResourcesToCreate:
+        ResourcesInfo:
+        - ID: Metall
+      MaxStorage: 5
+      MaxInputStorage: 2
+      CreationSpeed: 60
+      CollectTime: 0.1
+      NeedCount: 2
+      UpgradeResourses:
+      - ResourceInfo:
+          ID: Oil
+        Count: 5
+    - ResourcesToUpgrade:
+        ResourcesInfo: []
+      ResourcesForColect:
+        ResourcesInfo:
+        - ID: Food
+      ResourcesToCreate:
+        ResourcesInfo:
+        - ID: Metall
+      MaxStorage: 5
+      MaxInputStorage: 2
+      CreationSpeed: 60
+      CollectTime: 0.15
+      NeedCount: 2
+      UpgradeResourses:
+      - ResourceInfo:
+          ID: Oil
+        Count: 10
+  - Name: MiniOilPump2
+    UpgaradesGrades:
+    - ResourcesToUpgrade:
+        ResourcesInfo: []
+      ResourcesForColect:
+        ResourcesInfo:
+        - ID: Food
+      ResourcesToCreate:
+        ResourcesInfo:
+        - ID: Metall
+      MaxStorage: 5
+      MaxInputStorage: 2
+      CreationSpeed: 60
+      CollectTime: 0.1
+      NeedCount: 2
+      UpgradeResourses:
+      - ResourceInfo:
+          ID: Oil
+        Count: 7
+    - ResourcesToUpgrade:
+        ResourcesInfo: []
+      ResourcesForColect:
+        ResourcesInfo:
+        - ID: Food
+      ResourcesToCreate:
+        ResourcesInfo:
+        - ID: Metall
+      MaxStorage: 5
+      MaxInputStorage: 2
+      CreationSpeed: 60
+      CollectTime: 0.05
+      NeedCount: 2
+      UpgradeResourses:
+      - ResourceInfo:
+          ID: Oil
+        Count: 10
+  - Name: MiniOilPump3
+    UpgaradesGrades:
+    - ResourcesToUpgrade:
+        ResourcesInfo: []
+      ResourcesForColect:
+        ResourcesInfo:
+        - ID: Food
+      ResourcesToCreate:
+        ResourcesInfo:
+        - ID: Metall
+      MaxStorage: 5
+      MaxInputStorage: 2
+      CreationSpeed: 60
+      CollectTime: 0.1
+      NeedCount: 2
+      UpgradeResourses:
+      - ResourceInfo:
+          ID: Oil
+        Count: 10
+    - ResourcesToUpgrade:
+        ResourcesInfo: []
+      ResourcesForColect:
+        ResourcesInfo:
+        - ID: Food
+      ResourcesToCreate:
+        ResourcesInfo:
+        - ID: Metall
+      MaxStorage: 5
+      MaxInputStorage: 2
+      CreationSpeed: 60
+      CollectTime: 0.05
+      NeedCount: 2
+      UpgradeResourses:
+      - ResourceInfo:
+          ID: Oil
+        Count: 10
+  - Name: MiniOilPump4
+    UpgaradesGrades:
+    - ResourcesToUpgrade:
+        ResourcesInfo: []
+      ResourcesForColect:
+        ResourcesInfo:
+        - ID: Food
+      ResourcesToCreate:
+        ResourcesInfo:
+        - ID: Metall
+      MaxStorage: 5
+      MaxInputStorage: 2
+      CreationSpeed: 60
+      CollectTime: 0.1
+      NeedCount: 2
+      UpgradeResourses:
+      - ResourceInfo:
+          ID: Oil
+        Count: 12
+    - ResourcesToUpgrade:
+        ResourcesInfo: []
+      ResourcesForColect:
+        ResourcesInfo:
+        - ID: Food
+      ResourcesToCreate:
+        ResourcesInfo:
+        - ID: Metall
+      MaxStorage: 5
+      MaxInputStorage: 2
+      CreationSpeed: 60
+      CollectTime: 0.05
+      NeedCount: 2
+      UpgradeResourses:
+      - ResourceInfo:
+          ID: Oil
+        Count: 10
+  - Name: MiniOilPump5
+    UpgaradesGrades:
+    - ResourcesToUpgrade:
+        ResourcesInfo: []
+      ResourcesForColect:
+        ResourcesInfo:
+        - ID: Food
+      ResourcesToCreate:
+        ResourcesInfo:
+        - ID: Metall
+      MaxStorage: 5
+      MaxInputStorage: 2
+      CreationSpeed: 60
+      CollectTime: 0.1
+      NeedCount: 2
+      UpgradeResourses:
+      - ResourceInfo:
+          ID: Oil
+        Count: 15
+    - ResourcesToUpgrade:
+        ResourcesInfo: []
+      ResourcesForColect:
+        ResourcesInfo:
+        - ID: Food
+      ResourcesToCreate:
+        ResourcesInfo:
+        - ID: Metall
+      MaxStorage: 5
+      MaxInputStorage: 2
+      CreationSpeed: 60
+      CollectTime: 0.05
+      NeedCount: 2
+      UpgradeResourses:
+      - ResourceInfo:
+          ID: Oil
+        Count: 10
+  - Name: MiniOilPump6
+    UpgaradesGrades:
+    - ResourcesToUpgrade:
+        ResourcesInfo: []
+      ResourcesForColect:
+        ResourcesInfo:
+        - ID: Food
+      ResourcesToCreate:
+        ResourcesInfo:
+        - ID: Metall
+      MaxStorage: 5
+      MaxInputStorage: 2
+      CreationSpeed: 60
+      CollectTime: 0.1
+      NeedCount: 2
+      UpgradeResourses:
+      - ResourceInfo:
+          ID: Oil
+        Count: 18
+    - ResourcesToUpgrade:
+        ResourcesInfo: []
+      ResourcesForColect:
+        ResourcesInfo:
+        - ID: Food
+      ResourcesToCreate:
+        ResourcesInfo:
+        - ID: Metall
+      MaxStorage: 5
+      MaxInputStorage: 2
+      CreationSpeed: 60
+      CollectTime: 0.05
+      NeedCount: 2
+      UpgradeResourses:
+      - ResourceInfo:
+          ID: Oil
+        Count: 10
+  - Name: MiniOilPump7
+    UpgaradesGrades:
+    - ResourcesToUpgrade:
+        ResourcesInfo: []
+      ResourcesForColect:
+        ResourcesInfo:
+        - ID: Food
+      ResourcesToCreate:
+        ResourcesInfo:
+        - ID: Metall
+      MaxStorage: 5
+      MaxInputStorage: 2
+      CreationSpeed: 60
+      CollectTime: 0.1
+      NeedCount: 2
+      UpgradeResourses:
+      - ResourceInfo:
+          ID: Oil
+        Count: 20
+    - ResourcesToUpgrade:
+        ResourcesInfo: []
+      ResourcesForColect:
+        ResourcesInfo:
+        - ID: Food
+      ResourcesToCreate:
+        ResourcesInfo:
+        - ID: Metall
+      MaxStorage: 5
+      MaxInputStorage: 2
+      CreationSpeed: 60
+      CollectTime: 0.05
+      NeedCount: 2
+      UpgradeResourses:
+      - ResourceInfo:
+          ID: Oil
+        Count: 10
+  - Name: MiniOilPump8
+    UpgaradesGrades:
+    - ResourcesToUpgrade:
+        ResourcesInfo: []
+      ResourcesForColect:
+        ResourcesInfo:
+        - ID: Food
+      ResourcesToCreate:
+        ResourcesInfo:
+        - ID: Metall
+      MaxStorage: 5
+      MaxInputStorage: 2
+      CreationSpeed: 60
+      CollectTime: 0.1
+      NeedCount: 2
+      UpgradeResourses:
+      - ResourceInfo:
+          ID: Oil
+        Count: 22
+    - ResourcesToUpgrade:
+        ResourcesInfo: []
+      ResourcesForColect:
+        ResourcesInfo:
+        - ID: Food
+      ResourcesToCreate:
+        ResourcesInfo:
+        - ID: Metall
+      MaxStorage: 5
+      MaxInputStorage: 2
+      CreationSpeed: 60
+      CollectTime: 0.05
+      NeedCount: 2
+      UpgradeResourses:
+      - ResourceInfo:
+          ID: Oil
+        Count: 10
+  - Name: MiniOilPump9
+    UpgaradesGrades:
+    - ResourcesToUpgrade:
+        ResourcesInfo: []
+      ResourcesForColect:
+        ResourcesInfo:
+        - ID: Food
+      ResourcesToCreate:
+        ResourcesInfo:
+        - ID: Metall
+      MaxStorage: 5
+      MaxInputStorage: 2
+      CreationSpeed: 60
+      CollectTime: 0.1
+      NeedCount: 2
+      UpgradeResourses:
+      - ResourceInfo:
+          ID: Oil
+        Count: 28
+    - ResourcesToUpgrade:
+        ResourcesInfo: []
+      ResourcesForColect:
+        ResourcesInfo:
+        - ID: Food
+      ResourcesToCreate:
+        ResourcesInfo:
+        - ID: Metall
+      MaxStorage: 5
+      MaxInputStorage: 2
+      CreationSpeed: 60
+      CollectTime: 0.05
+      NeedCount: 2
+      UpgradeResourses:
+      - ResourceInfo:
+          ID: Oil
+        Count: 10
+  - Name: MiniOilPump10
+    UpgaradesGrades:
+    - ResourcesToUpgrade:
+        ResourcesInfo: []
+      ResourcesForColect:
+        ResourcesInfo:
+        - ID: Food
+      ResourcesToCreate:
+        ResourcesInfo:
+        - ID: Metall
+      MaxStorage: 5
+      MaxInputStorage: 2
+      CreationSpeed: 60
+      CollectTime: 0.1
+      NeedCount: 2
+      UpgradeResourses:
+      - ResourceInfo:
+          ID: Oil
+        Count: 5
+    - ResourcesToUpgrade:
+        ResourcesInfo: []
+      ResourcesForColect:
+        ResourcesInfo:
+        - ID: Food
+      ResourcesToCreate:
+        ResourcesInfo:
+        - ID: Metall
+      MaxStorage: 5
+      MaxInputStorage: 2
+      CreationSpeed: 60
+      CollectTime: 0.05
+      NeedCount: 2
+      UpgradeResourses:
+      - ResourceInfo:
+          ID: Oil
+        Count: 10
+  - Name: MiniOilPump11
+    UpgaradesGrades:
+    - ResourcesToUpgrade:
+        ResourcesInfo: []
+      ResourcesForColect:
+        ResourcesInfo:
+        - ID: Food
+      ResourcesToCreate:
+        ResourcesInfo:
+        - ID: Metall
+      MaxStorage: 5
+      MaxInputStorage: 2
+      CreationSpeed: 60
+      CollectTime: 0.1
+      NeedCount: 2
+      UpgradeResourses:
+      - ResourceInfo:
+          ID: Oil
+        Count: 30
+    - ResourcesToUpgrade:
+        ResourcesInfo: []
+      ResourcesForColect:
+        ResourcesInfo:
+        - ID: Food
+      ResourcesToCreate:
+        ResourcesInfo:
+        - ID: Metall
+      MaxStorage: 5
+      MaxInputStorage: 2
+      CreationSpeed: 60
+      CollectTime: 0.05
+      NeedCount: 2
+      UpgradeResourses:
+      - ResourceInfo:
+          ID: Oil
+        Count: 10
+  - Name: Transporter
+    UpgaradesGrades:
+    - ResourcesToUpgrade:
+        ResourcesInfo: []
+      ResourcesForColect:
+        ResourcesInfo:
+        - ID: 
+      ResourcesToCreate:
+        ResourcesInfo:
+        - ID: Metall
+      MaxStorage: 5
+      MaxInputStorage: 2
+      CreationSpeed: 60
+      CollectTime: 0.1
+      NeedCount: 2
+      UpgradeResourses:
+      - ResourceInfo:
+          ID: Oil
+        Count: 7
+      - ResourceInfo:
+          ID: Plastic
+        Count: 7
+    - ResourcesToUpgrade:
+        ResourcesInfo: []
+      ResourcesForColect:
+        ResourcesInfo:
+        - ID: 
+      ResourcesToCreate:
+        ResourcesInfo:
+        - ID: Metall
+      MaxStorage: 5
+      MaxInputStorage: 2
+      CreationSpeed: 60
+      CollectTime: 0.05
+      NeedCount: 2
+      UpgradeResourses:
+      - ResourceInfo:
+          ID: Oil
+        Count: 12
+      - ResourceInfo:
+          ID: Plastic
+        Count: 12
+    - ResourcesToUpgrade:
+        ResourcesInfo: []
+      ResourcesForColect:
+        ResourcesInfo:
+        - ID: 
+      ResourcesToCreate:
+        ResourcesInfo:
+        - ID: Metall
+      MaxStorage: 5
+      MaxInputStorage: 2
+      CreationSpeed: 60
+      CollectTime: 0.05
+      NeedCount: 2
+      UpgradeResourses:
+      - ResourceInfo:
+          ID: Oil
+        Count: 15
+      - ResourceInfo:
+          ID: Plastic
+        Count: 15
+      - ResourceInfo:
+          ID: Metall
+        Count: 15
+    - ResourcesToUpgrade:
+        ResourcesInfo: []
+      ResourcesForColect:
+        ResourcesInfo:
+        - ID: Food
+      ResourcesToCreate:
+        ResourcesInfo:
+        - ID: Metall
+      MaxStorage: 5
+      MaxInputStorage: 2
+      CreationSpeed: 60
+      CollectTime: 0.05
+      NeedCount: 2
+      UpgradeResourses:
+      - ResourceInfo:
+          ID: Oil
+        Count: 15
+      - ResourceInfo:
+          ID: Plastic
+        Count: 15
+      - ResourceInfo:
+          ID: Metall
+        Count: 15
+  - Name: Mechanic
+    UpgaradesGrades:
+    - ResourcesToUpgrade:
+        ResourcesInfo: []
+      ResourcesForColect:
+        ResourcesInfo:
+        - ID: Food
+      ResourcesToCreate:
+        ResourcesInfo:
+        - ID: Metall
+      MaxStorage: 5
+      MaxInputStorage: 2
+      CreationSpeed: 45
+      CollectTime: 0.1
+      NeedCount: 2
+      UpgradeResourses:
+      - ResourceInfo:
+          ID: Oil
+        Count: 15
+      - ResourceInfo:
+          ID: Water
+        Count: 15
+      - ResourceInfo:
+          ID: Plastic
+        Count: 10
+    - ResourcesToUpgrade:
+        ResourcesInfo: []
+      ResourcesForColect:
+        ResourcesInfo:
+        - ID: Food
+      ResourcesToCreate:
+        ResourcesInfo: []
+      MaxStorage: 5
+      MaxInputStorage: 2
+      CreationSpeed: 45
+      CollectTime: 0.05
+      NeedCount: 2
+      UpgradeResourses:
+      - ResourceInfo:
+          ID: Oil
+        Count: 10
+  - Name: StartResourcecs
+    UpgaradesGrades:
+    - ResourcesToUpgrade:
+        ResourcesInfo: []
+      ResourcesForColect:
+        ResourcesInfo: []
+      ResourcesToCreate:
+        ResourcesInfo:
+        - ID: Oil
+        - ID: Oil
+        - ID: Oil
+        - ID: Oil
+        - ID: Oil
+        - ID: Oil
+        - ID: Oil
+        - ID: Oil
+        - ID: Oil
+        - ID: Oil
+        - ID: Oil
+        - ID: Oil
+        - ID: Oil
+        - ID: Oil
+        - ID: Oil
+        - ID: Oil
+        - ID: Oil
+        - ID: Oil
+        - ID: Oil
+        - ID: Oil
+        - ID: Oil
+        - ID: Oil
+        - ID: Oil
+        - ID: Oil
+        - ID: Oil
+        - ID: Oil
+        - ID: Oil
+        - ID: Oil
+        - ID: Oil
+        - ID: Oil
+        - ID: Oil
+        - ID: Oil
+        - ID: Oil
+        - ID: Oil
+        - ID: Oil
+        - ID: Oil
+        - ID: Oil
+        - ID: Oil
+        - ID: Oil
+        - ID: Oil
+        - ID: Oil
+        - ID: Oil
+        - ID: Oil
+        - ID: Oil
+        - ID: Oil
+      MaxStorage: 5
+      MaxInputStorage: 2
+      CreationSpeed: 45
+      CollectTime: 0.1
+      NeedCount: 2
+      UpgradeResourses: []
